@@ -37,5 +37,12 @@
     "tailwindcss": "^4.3.2",
     "typescript": "~6.0.2",
     "vite": "^8.1.0"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "22.16.0",
+      "onFail": "download"
+    }
   }
 }

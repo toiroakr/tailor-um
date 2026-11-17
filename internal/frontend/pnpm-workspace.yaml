@@ -4,6 +4,3 @@ allowBuilds:
 
 lockfile:
   format: v13
-
-executionEnv:
-  nodeVersion: 22.16.0

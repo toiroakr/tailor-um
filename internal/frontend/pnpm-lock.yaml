@@ -246,6 +246,7 @@ snapshots:
 					"specifier": "^6.0.3",
 					"version": "6.0.3",
 				},
+				"node": "runtime:22.16.0",
 				"oxfmt": {
 					"specifier": "^0.56.0",
 					"version": "0.56.0",
@@ -1971,6 +1972,224 @@ snapshots:
 		"nanoid@3.3.15": {
 			"integrity": "sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==",
 			"engines": {"node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"},
+			"hasBin": true,
+		},
+
+		"node@runtime:22.16.0": {
+			"resolution": {
+				"type": "variations",
+				"variants": [
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-F9QDg2DyMi5sO5+C5xFRY8oDnaRwtZkzq3CKSETF6TY=",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-aix-ppc64.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "ppc64",
+								"os": "aix",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-HX807EwD4S2LM0geXEVgQy19wxoO8/9aTZqK2nz27Mk=",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-darwin-arm64.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "arm64",
+								"os": "darwin",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-g41AD35myATl0R4uy2HW6eh4YRFGuv9p1qLe88wj9Kw=",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-darwin-x64.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "x64",
+								"os": "darwin",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-FyVgLp+xUOuLgiComQhRkOHATRpfOGKwHD3B384BV/k=",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-linux-arm64.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "arm64",
+								"os": "linux",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-1MPYtoYiCPDg1uIHJqjcX7AZy6gzPHLf2Xs0zu2NIqQ=",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-linux-armv7l.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "armv7l",
+								"os": "linux",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-tO7BX/0tc4rjRWYFemko54ngKg9HF29K+FIPEkjGOqs=",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-linux-ppc64le.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "ppc64le",
+								"os": "linux",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-ZopcZa3kLwjZIcSKHBRDfRDQJikeOB0lQcKwpYVyRWc=",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-linux-s390x.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "s390x",
+								"os": "linux",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-+4cCJhGdRzePqcksRTU4nHLa4U/Me0fm/cyCxD3lpUc=",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-linux-x64.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "x64",
+								"os": "linux",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "zip",
+							"bin": {
+								"node": "node.exe",
+							},
+							"integrity": "sha256-MeiF3NBjVfZ7S+jMqGRkJw2D0PW41OPUNpwW7SKl9Po=",
+							"prefix": "node-v22.16.0-win-arm64",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-win-arm64.zip",
+						},
+						"targets": [
+							{
+								"cpu": "arm64",
+								"os": "win32",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "zip",
+							"bin": {
+								"node": "node.exe",
+							},
+							"integrity": "sha256-IcLZc1yAuPhtqxkwWqap9vWbvICPaN4+7wnVgy47+70=",
+							"prefix": "node-v22.16.0-win-x64",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-win-x64.zip",
+						},
+						"targets": [
+							{
+								"cpu": "x64",
+								"os": "win32",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "zip",
+							"bin": {
+								"node": "node.exe",
+							},
+							"integrity": "sha256-wj4W/93ZXvRSclSWdaj4dICzoKkAvruUwnf/EbqZ7AY=",
+							"prefix": "node-v22.16.0-win-x86",
+							"type": "binary",
+							"url": "https://nodejs.org/download/release/v22.16.0/node-v22.16.0-win-x86.zip",
+						},
+						"targets": [
+							{
+								"cpu": "x86",
+								"os": "win32",
+							},
+						],
+					},
+					{
+						"resolution": {
+							"archive": "tarball",
+							"bin": {
+								"node": "bin/node",
+							},
+							"integrity": "sha256-bSCsfwNMQRe778vea2NBJjfbowqrFEoRFPxgS2YJ/Lo=",
+							"type": "binary",
+							"url": "https://unofficial-builds.nodejs.org/download/release/v22.16.0/node-v22.16.0-linux-x64-musl.tar.gz",
+						},
+						"targets": [
+							{
+								"cpu": "x64",
+								"libc": "musl",
+								"os": "linux",
+							},
+						],
+					},
+				],
+			},
+			"version": "22.16.0",
 			"hasBin": true,
 		},
 
