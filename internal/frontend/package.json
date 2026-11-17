@@ -12,14 +12,6 @@
     "fmt": "oxfmt -c .oxfmtrc.json --write src/",
     "fmt:check": "oxfmt -c .oxfmtrc.json --check src/"
   },
-  "pnpm": {
-    "executionEnv": {
-      "nodeVersion": "22.16.0"
-    },
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
-  },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.3.5",
     "@radix-ui/react-dialog": "^1.1.17",
